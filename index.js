@@ -33,8 +33,8 @@ function saveConfig(cfg) {
 let config = loadConfig(); // { [guildId]: { channelId: "..." } }
 
 // ---- Gönderilecek mesajlar (istediğin 3 metin) ---------------------------
-const MESSAGES_10S = ["owo", "Görüşürüz!"]; // sırayla, her 10 saniyede birer birer
-const MESSAGE_7M = "Nasılsınız!"; // her 7 dakikada bir
+const MESSAGES_10S = ["wh", "wb"]; // sırayla, her 10 saniyede birer birer
+const MESSAGE_7M = "w pray"; // her 7 dakikada bir
 
 const INTERVAL_10S = 10 * 1000; // 10 saniye
 const INTERVAL_7M = 7 * 60 * 1000; // 7 dakika
